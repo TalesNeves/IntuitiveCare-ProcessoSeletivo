@@ -23,7 +23,7 @@ Ao final da execução do script, um arquivo zip com o nome "Teste_(tales_olivei
   A rota /all é utilizada para realizar um query de todas as entradas do presentes no banco de dados.<br />
   A rota /like/<lookforterm> é uma query que busca todas as entradas que possuem a string de "lookforterm" no seu campo de razão social.
   
- O front-end apenas um cabeçalho para navegação e 
+ O front-end é apenas um web site que cabeçalho para navegação e na uma seção "Operadoras" com uma tabela.
  
  # Detalhes e poréns
  A importação dos dados do anexo de relatório foi feita utilizando MySQL Worbench e exigiu que os acentos fossem removidos utilizando o script "fixencoding.py".<br />
