@@ -3,11 +3,22 @@
 As aplicações e serviços desenvolvidos utilizando python possuem arquivo um arquivo de requiremento em suas respectivas pastas. <br />
 
 # Teste 1 
+```
+pip install -r requirements.txt
+source env/bin/activate
+python3 Task1.py
+```
 Ao final do script os anexos que foram baixados usando web scraping são compactos em um arquivo com o nome "Anexos.zip" <br />
 
 # Teste 2 
+```
+pip install -r requirements.txt
+source env/bin/activate
+python3 Task2.py
+```
 O script desse teste precisa que o arquivo de nome "Anexo_I_Rol_2021RN_465.2021_RN473_RN478_RN480_RN513_RN536_RN537_RN538_RN539_RN541_RN542_RN544_546_571_577.pdf" esteja presente no diretório atual.<br />
 Ao final da execução do script, um arquivo zip com o nome "Teste_(tales_oliveira_neves).zip" é gerado contendo a tabela extraída do arquivo pdf.<br />
+
 # Teste 4
 
  A infraestrutura da aplicação do teste 4 foi montadada seguinte maneira: <br />
